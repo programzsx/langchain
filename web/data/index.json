@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-10-05T06:12:39.337Z",
+  "total": 22,
+  "packages": [
+    {
+      "name": "langchain-core",
+      "description": "Building applications with LLMs through composability",
+      "version": "1.6.4",
+      "dir": "libs/core",
+      "group": "核心包"
+    },
+    {
+      "name": "langchain-classic",
+      "description": "Building applications with LLMs through composability",
+      "version": "1.0.8",
+      "dir": "libs/langchain",
+      "group": "主包（classic）"
+    },
+    {
+      "name": "langchain",
+      "description": "Building applications with LLMs through composability",
+      "version": "1.4.2",
+      "dir": "libs/langchain_v1",
+      "group": "主包（v1）"
+    },
+    {
+      "name": "langchain-model-profiles",
+      "description": "CLI tool for updating model profile data in LangChain integration packages.",
+      "version": "0.0.6",
+      "dir": "libs/model-profiles",
+      "group": "工具包"
+    },
+    {
+      "name": "langchain-tests",
+      "description": "Standard tests for LangChain implementations",
+      "version": "1.1.9",
+      "dir": "libs/standard-tests",
+      "group": "测试包"
+    },
+    {
+      "name": "langchain-text-splitters",
+      "description": "LangChain text splitting utilities",
+      "version": "1.1.2",
+      "dir": "libs/text-splitters",
+      "group": "文本处理"
+    },
+    {
+      "name": "langchain-anthropic",
+      "description": "Integration package connecting Claude (Anthropic) APIs and LangChain",
+      "version": "1.7.4",
+      "dir": "libs/partners/anthropic",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-chroma",
+      "version": "1.1.0",
+      "description": "An integration package connecting Chroma and LangChain.",
+      "dir": "libs/partners/chroma",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-deepseek",
+      "description": "An integration package connecting DeepSeek and LangChain",
+      "version": "1.1.1",
+      "dir": "libs/partners/deepseek",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-exa",
+      "version": "1.1.0",
+      "description": "An integration package connecting Exa and LangChain",
+      "dir": "libs/partners/exa",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-fireworks",
+      "description": "An integration package connecting Fireworks and LangChain",
+      "version": "1.6.2",
+      "dir": "libs/partners/fireworks",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-groq",
+      "description": "An integration package connecting Groq and LangChain",
+      "version": "1.1.3",
+      "dir": "libs/partners/groq",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-huggingface",
+      "description": "An integration package connecting Hugging Face and LangChain.",
+      "version": "1.2.2",
+      "dir": "libs/partners/huggingface",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-mistralai",
+      "description": "An integration package connecting Mistral and LangChain",
+      "version": "1.1.6",
+      "dir": "libs/partners/mistralai",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-nomic",
+      "version": "1.0.1",
+      "description": "An integration package connecting Nomic and LangChain",
+      "dir": "libs/partners/nomic",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-ollama",
+      "description": "An integration package connecting Ollama and LangChain",
+      "version": "1.1.0",
+      "dir": "libs/partners/ollama",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-openai",
+      "description": "An integration package connecting OpenAI and LangChain",
+      "version": "1.6.6",
+      "dir": "libs/partners/openai",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-openrouter",
+      "description": "An integration package connecting OpenRouter and LangChain",
+      "version": "0.2.9",
+      "dir": "libs/partners/openrouter",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-perplexity",
+      "description": "An integration package connecting Perplexity and LangChain",
+      "version": "1.4.1",
+      "dir": "libs/partners/perplexity",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-qdrant",
+      "version": "1.1.0",
+      "description": "An integration package connecting Qdrant and LangChain",
+      "dir": "libs/partners/qdrant",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-typesafe",
+      "version": "0.0.1a3",
+      "description": "A LangChain integration for TypeSafe classifiers",
+      "dir": "libs/partners/typesafe",
+      "group": "合作方集成"
+    },
+    {
+      "name": "langchain-xai",
+      "description": "An integration package connecting xAI and LangChain",
+      "version": "1.3.0",
+      "dir": "libs/partners/xai",
+      "group": "合作方集成"
+    }
+  ]
+}

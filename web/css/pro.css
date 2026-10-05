@@ -1,0 +1,95 @@
+/* langchain · Arco Design Pro Monorepo 包管理后台样式 */
+
+:root {
+  --pro-bg: #f2f3f5;
+  --pro-border: #e5e6eb;
+  --pro-header-bg: #ffffff;
+  --pro-sider-bg: #ffffff;
+  --pro-text-sub: #86909c;
+  --brand: #165dff;
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; margin: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--pro-bg);
+  color: #1d2129;
+}
+
+/* ===== Arco Pro 布局骨架 ===== */
+.pro-layout { min-height: 100vh; background: var(--pro-bg); }
+
+.pro-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--pro-header-bg);
+  border-bottom: 1px solid var(--pro-border);
+  height: 56px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pro-brand { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+.pro-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--brand), #6aa1ff);
+}
+.pro-title { font-size: 16px; font-weight: 700; letter-spacing: 0.02em; }
+.pro-sub { font-size: 12px; color: var(--pro-text-sub); }
+
+.pro-body { background: transparent; }
+
+.pro-sider {
+  background: var(--pro-sider-bg) !important;
+  border-right: 1px solid var(--pro-border);
+}
+.pro-sider .arco-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.pro-content {
+  padding: 16px 24px 24px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pro-breadcrumb { margin-bottom: 14px; }
+
+.pro-footer {
+  text-align: center;
+  font-size: 12px;
+  color: var(--pro-text-sub);
+  padding: 18px 0 8px;
+}
+
+/* ===== 内容区 ===== */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.pkg-card .pkg-name {
+  font-family: ui-monospace, "JetBrains Mono", Consolas, monospace;
+  font-weight: 600;
+}
+
+/* 响应式 */
+@media (max-width: 960px) {
+  .pro-content { padding: 12px 14px 20px; }
+  .stat-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+}
